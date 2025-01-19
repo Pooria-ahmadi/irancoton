@@ -1,0 +1,84 @@
+@font-face {
+  font-family: Vazir;
+  font-style: normal;
+  font-weight: normal;
+  src: url('~/assets/fonts/Vazir-FD-WOL.eot') format('eot'),
+    url('~~/assets/fonts/Vazir-FD-WOL.woff') format('woff'),
+    url('~~/assets/fonts/Vazir-FD-WOL.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: boldvazir;
+  font-style: normal;
+  font-weight: normal;
+  src: url('~/assets/fonts/Vazir-Bold-FD-WOL.eot') format('eot'),
+    url('~/assets/fonts/Vazir-Bold-FD-WOL.ttf') format('ttf'),
+    url('~/assets/fonts/Vazir-Bold-FD-WOL.woff') format('woff'),
+    url('~/assets/fonts/Vazir-Bold-FD-WOL.woff2') format('woff2');
+}
+
+body,
+* {
+  font-family: vazir !important;
+}
+
+body {
+  background-color: #0e0b1f;
+  min-height: 103vh;
+}
+
+.font-bold-number {
+  font-family: boldvazir !important;
+}
+
+.border-r-12px {
+  border-radius: 12px;
+}
+
+.bg-33335b {
+  background-color: #33335b94;
+}
+
+.color-33335b94 {
+  color: #67678E;
+}
+
+.color-AEABD8 {
+  color: #AEABD8;
+}
+
+.w-65px {
+  width: 65px;
+  text-align: center;
+  background-color: #AEABD838;
+  border-radius: 10px;
+  height: 20px;
+}
+
+.input::placeholder {
+  color: #AEABD8;
+}
+
+.w-170px {
+  width: 170px;
+  border: 2px solid #414163;
+  border-radius: 5px;
+}
+
+.bg-br-input {
+  background-color: rgba(174, 171, 216, 0.21961);
+  border: none;
+}
+.mx-column{
+  margin-left: 5px;
+  margin-right: 5px;
+}
+@media screen and (max-width: 768px) {
+  .mt-10px {
+    margin-top: 10px;
+  }
+  .mx-column{
+    margin-left: 0;
+    margin-right: 0;
+  }
+}
