@@ -3,7 +3,8 @@
     <div class="columns mx-0 is-justify-content-center is-relative">
       <div class="column is-10">
         <div class="columns mx-0 mt-0">
-          <div class="column mx-column py-4 bg-33335b border-r-12px mt-10px " v-for="(data, index) in select" :key="index">
+          <div class="column mx-column py-4 bg-33335b border-r-12px mt-10px " v-for="(data, index) in select"
+            :key="index">
             <div class="is-flex is-justify-content-space-between is-align-items-center">
               <div class="is-flex is-align-items-center">
                 <img :src="data.img" alt="">
@@ -26,7 +27,8 @@
           </div>
         </div>
         <div class="columns mx-0 my-0">
-          <div class="column mx-column py-4 mt-10px bg-33335b has-text-centered border-r-12px" v-for="(data, index) in otherselect" :key="index">
+          <div class="column mx-column py-4 mt-10px bg-33335b has-text-centered border-r-12px"
+            v-for="(data, index) in otherselect" :key="index">
             <div class="is-flex is-justify-content-space-between is-align-items-center">
               <div class="is-flex is-align-items-center">
                 <img :src="data.img" alt="">
@@ -48,7 +50,8 @@
             </div>
           </div>
         </div>
-        <div class="columns mx-0 is-justify-content-center mt-5 ">
+        <MyComponent />
+        <div class="columns mx-0 is-justify-content-center mt-5 is-hidden-mobile">
           <div class="column has-text-centered bg-33335b border-r-12px pt-5 pb-0">
             <div class="is-flex is-justify-content-space-between is-align-items-center mb-5">
               <div class="is-flex is-align-items-center">
