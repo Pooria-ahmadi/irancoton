@@ -37,7 +37,8 @@
                         </div>
                     </div>
                 </div>
-                <div class="columns mx-0 is-justify-content-center mt-5 ">
+                <MyComponent />
+                <div class="columns mx-0 is-justify-content-center mt-5 is-hidden-mobile">
                     <div class="column has-text-centered bg-33335b border-r-12px pt-5 pb-0">
                         <div class="columns is-mobile mb-1 mx-0">
                             <div class="column color-AEABD8 is-size-7 is-1">
@@ -90,7 +91,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="columns mx-0 my-0">
+                <div class="columns mx-0 mt-5 mb-0">
                     <div class="column mx-column py-4 mt-10px bg-33335b has-text-centered border-r-12px"
                         v-for="(data, index) in otherselect" :key="index">
                         <div class="is-flex is-justify-content-space-between is-align-items-center">
